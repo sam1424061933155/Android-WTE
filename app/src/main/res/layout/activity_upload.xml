@@ -1,0 +1,7 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/choose_image_fragment"
+        android:tag="choose_image"
+        android:name="com.example.sam14240619331555.food_app.ChooseImageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+        <!--tools:layout="@layout/layout4" />-->

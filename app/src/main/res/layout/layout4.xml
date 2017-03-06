@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/relative">
+
+        <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay"
+            android:background="#A7CD6B"
+            android:id="@+id/bar">
+
+            <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+                android:layout_width="match_parent" android:layout_height="18dp"
+                android:background="#A7CD6B" app:popupTheme="@style/AppTheme.PopupOverlay" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="9dp"
+                    android:text="@string/wte"
+                    android:textColor="#f5f5f5"
+                    android:textSize="22dp"
+                    android:id="@+id/title"
+                    android:paddingBottom="12dp"/>
+
+                <ImageView
+                    android:id="@+id/update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="2dp"
+                    android:layout_alignBottom="@+id/title"
+                    android:src="@drawable/send3"
+                    />
+
+            </RelativeLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/db_name"
+            style="@style/DefTextInputLayout"
+            android:layout_centerVertical="true"
+            android:layout_below="@+id/bar"
+            >
+
+            <EditText
+                android:id="@+id/data_name"
+                style="@style/DefEditText"
+                android:hint="@string/db_name"
+                android:inputType="text"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/db_time"
+            style="@style/DefTextInputLayout"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/db_name"
+            android:layout_marginBottom="@id/db_name"
+            >
+
+            <EditText
+                android:id="@+id/data_time"
+                style="@style/DefEditText"
+                android:hint="@string/db_time"
+                android:inputType="text"
+                android:layout_below="@id/data_name"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/db_addr"
+            style="@style/DefTextInputLayout"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/db_time"
+            >
+
+            <EditText
+                android:id="@+id/data_addr"
+                style="@style/DefEditText"
+                android:hint="@string/db_addr"
+                android:inputType="text"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/db_menu"
+            style="@style/DefTextInputLayout"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/db_addr">
+
+            <EditText
+                android:id="@+id/choose_image_button"
+                style="@style/DefEditText"
+                android:hint="@string/db_menu"
+                android:inputType="text"
+                android:selectAllOnFocus="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <EditText
+            android:id="@+id/et1"
+            style="@style/DefEditText"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            android:visibility="gone"
+            android:layout_below="@id/db_menu"/>
+
+        <EditText
+            android:id="@+id/et2"
+            style="@style/DefEditText"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            android:visibility="gone"
+            android:layout_below="@id/et1"/>
+
+
+
+
+        <TextView
+            android:id="@+id/choose_image_upload_status"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:layout_below="@id/db_menu"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/choose_image_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitCenter"
+            android:layout_below="@id/choose_image_upload_status"
+            android:layout_centerHorizontal="true"/>
+
+
+
+
+        <TextView
+            android:id="@+id/db_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#A0000000"
+            android:textSize="20sp"
+            android:text="@string/db_class"
+            android:paddingLeft="5dp"
+            android:paddingTop="8dp"
+            android:layout_below="@id/choose_image_preview"
+            />
+
+        <Spinner
+            android:id="@+id/data_class1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/data_pushout"
+            android:layout_below="@id/db_class"/>
+
+        <Spinner
+            android:id="@+id/data_class2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/data_pushout"
+            android:layout_below="@id/data_class1"/>
+
+        <Spinner
+            android:id="@+id/data_class3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/data_pushout"
+            android:layout_below="@id/data_class2"/>
+
+        <Spinner
+            android:id="@+id/data_class4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/data_pushout"
+            android:layout_below="@id/data_class3"/>
+
+        <TextView
+            android:id="@+id/db_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#A0000000"
+            android:textSize="20sp"
+            android:text="@string/db_star"
+            android:paddingLeft="5dp"
+            android:paddingTop="8dp"
+            android:layout_below="@id/data_class4"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:rating="0.0"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:progressTint="#ffffff00"
+            android:secondaryProgressTint="#ffffff00"
+            android:layout_below="@id/db_star"/>
+
+
+        <TextView
+            android:id="@+id/db_push"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#A0000000"
+            android:textSize="20sp"
+            android:text="@string/db_push"
+            android:paddingLeft="5dp"
+            android:paddingTop="8dp"
+            android:layout_below="@id/ratingBar"/>
+
+        <EditText
+            android:id="@+id/data_push"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#A0000000"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/data_pushout"
+            android:lines="4"
+            android:layout_below="@id/db_push"
+            android:layout_marginBottom="15dp"
+            android:gravity="top"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>
+

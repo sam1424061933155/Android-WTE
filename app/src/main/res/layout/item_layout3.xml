@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemComment_listview"
+        android:dividerHeight="1dp"
+        android:divider="#FCCC"
+        android:textSize="20sp"
+        android:scrollbars="none"
+         />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FCCC"
+        android:layout_marginTop="10dp"
+        android:id="@+id/line"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/des_no"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="16sp"
+        android:textColor="#A0000000"
+        android:gravity="center_horizontal"
+        />
+
+</LinearLayout>

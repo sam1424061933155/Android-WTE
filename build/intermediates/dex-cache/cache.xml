@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\libs\commons-logging-1.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\commons-logging-1.2-e830c44d9075f8465b3254ae245f84a2b22decdd.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\classes-ab0834158be7dde9616359e85f103e5144b83dc8.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\classes-bcaf1c622362172705188e21ae85fa564f4820bd.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\internal_impl-23.0.1-1734fd3d818b0355273a7761229c4c99d493ed49.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\libs\commons-codec-1.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\commons-codec-1.9-7d669e0321922a47a649c0ad4783127d909c51c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\exploded-aar\com.android.support\percent\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cddfbb68753c7b1222ffb7af97bfd9ecf413aba7">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\classes-e677cd770189ca116133b9313b5ce036e7f240ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\libs\fluent-hc-4.5.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a4bafd995d1403c26d874bf52f76e7f74af8b9a">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\fluent-hc-4.5.1-836ca2eba83e9d4663d992b9f603bdbd8f69033a.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\libs\httpclient-4.5.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7e3cecc566df91338c6c67883b89ddd05a17db43">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\httpclient-4.5.1-c300b43753852e600aef7b8958142444e455c8f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\picasso-2.5.2-821819c48432ae53375c8c83d8d18c473cd89e9b.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\libs\httpcore-4.4.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e876a79d561e5c6207b78d347e198c8c4531a5e5">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\httpcore-4.4.3-97b07132d28a00d91ef4f79c96b537029551f9c2.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\libs\jna-platform-4.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="23457ad1cf75c2c16763330de5565a0e67b4bc0a">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\jna-platform-4.1.0-d06748898d46455e9cbedd64a2ad0bb8f838da31.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\libs\jna-4.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1c12d070e602efd8021891cdd7fd18bc129372d4">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\jna-4.1.0-75674bd5bbc75c468c7126e8eeec9d57d5d95e2a.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\classes-c43b370def6bcf3f071691046a339dd89c951696.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\classes-2fafa912ce8512bf651686be7764c8de02c0aefa.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\libs\httpmime-4.5.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="96823b9421ebb9f490dec837d9f96134e864e3a7">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\httpmime-4.5.1-7afb1d6b684784c7fcd763cd244c3c1a309ce66f.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\classes-a3d6a2ff27e17da836f44d19f857de1a302d9665.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\support-annotations-23.0.1-b5ca8c95e4f1e239dde983a162bb33da5a69402e.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\libs\httpclient-cache-4.5.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6247317086cb12d2a5fe3296afeccb1d3e00525c">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\httpclient-cache-4.5.1-4f6a015f63c6711483f0f30d1b0a99336d213833.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\classes-a5e1f28261f71f5ae167a35856e6c6ee87c3432f.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\exploded-aar\com.afollestad\material-dialogs\0.7.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0b3bbe3dc415a3fe112e7c28de53fd194fe4416e">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\classes-e0a0d902162390d42ae3bb40496acf8ca6e7b154.jar" />
+    </item>
+    <item
+        jar="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\libs\httpclient-win-4.5.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1829f9483cded887b5e7eb354d9a86e81d377962">
+        <dex dex="C:\Users\sam14240619331555\Desktop\Food_App2\Food_App2\app\build\intermediates\pre-dexed\release\httpclient-win-4.5.1-05dbbfd07f5d5a22af3b7710d30064f6b6cbb6c4.jar" />
+    </item>
+
+</items>
